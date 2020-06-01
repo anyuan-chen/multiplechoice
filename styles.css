@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.response{
+    background-color: darkgoldenrod;
+    border:none;
+    color:white;
+    padding: 32px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+}
+#answer-grid{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+    gap: 5px 5px;
+    grid-template-areas: ". ." ". .";
+    margin: 0 auto;
+    position: fixed;
+    bottom: 8em;
+    width: 98.5%;
+    align-self: center;
+    align-items: center;
+}
+#quiz-container{
+    text-align: center;
+}
+.wrong{
+    background-color: red;
+}
+.correct{
+    background-color: green;
+}
+.unanswered{
+    background-color: darkgoldenrod;
+}
+h1{
+    font-family: Montserrat;
+    font-size: 4em;
+}
+h2{
+    font-size: 3.5em;
+    font-family: Montserrat;
+    color: darkgray;
+}
